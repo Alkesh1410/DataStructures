@@ -1,4 +1,4 @@
-### By Alkesh Shah
+//  Prepared by Alkesh Shah
 
 #include <stdio.h>
 #include <stdlib.h>
