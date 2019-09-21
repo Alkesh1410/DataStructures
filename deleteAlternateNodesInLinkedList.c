@@ -1,5 +1,5 @@
 //  Delete the alternate nodes in a linked-list
-//  By Alkesh Shah
+//  Prepared by Alkesh Shah
 
 #include <stdio.h>
 #include <stdlib.h>
