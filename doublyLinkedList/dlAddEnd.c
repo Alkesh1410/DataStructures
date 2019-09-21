@@ -1,4 +1,5 @@
-//	Doublelinked list --> add End and delete the node
+//	Doublelinked list --> add End
+//	By Alkesh Shah
 
 #include<stdio.h>
 #include<stdlib.h>
