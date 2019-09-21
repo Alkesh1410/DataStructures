@@ -1,5 +1,5 @@
 //	Doublelinked list --> add End
-//	By Alkesh Shah
+//	Prepared by Alkesh ShahShah
 
 #include<stdio.h>
 #include<stdlib.h>
