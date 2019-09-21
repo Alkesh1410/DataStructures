@@ -7,8 +7,8 @@
 typedef struct node
 {
 	int data;
-	struct node *flink;
-	struct node *llink;
+	struct node *flink;		//	First link of the node.
+	struct node *llink;		//	Last link of the node
 }NODE;
 
 void print(NODE *);
