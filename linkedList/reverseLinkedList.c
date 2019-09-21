@@ -16,18 +16,18 @@ void reverseNodes(NODE **,int);
 void reverseNodes(NODE **ptr,int count)		//	Using single pointer
 {
 	int i;
-	NODE **p = (NODE **)malloc((sizeof(NODE))*count);
+	NODE **arr = (NODE **)malloc((sizeof(NODE))*count);
 	NODE *temp = *ptr;
 
 	for(i=0;i<count;i++,temp=temp->link)
-		p[i] = temp;
+		arr[i] = temp;
 
-	p[0]->link = 0;
+	arr[0]->link = 0;
 
 	for(i=1;i<count;i++)
-		p[i]->link = p[i-1];
+		arr[i]->link = arr[i-1];
 
-	*ptr = p[count-1];
+	*ptr = arr[count-1];
 }
 
 void addNode(NODE **ptr)
