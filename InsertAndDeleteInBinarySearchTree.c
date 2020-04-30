@@ -31,8 +31,8 @@ BST *findMinFromRightSubtree(BST *par)
 BST *deleteNode(BST *par, int value)
 {
     if(par == NULL) return par;
-    else if (val < par->data) par->leftChild = deleteNode(par->leftChild,value);
-    else if (val > par->data) par->rightChild = deleteNode(par->rightChild,value);
+    else if (value < par->data) par->leftChild = deleteNode(par->leftChild,value);
+    else if (value > par->data) par->rightChild = deleteNode(par->rightChild,value);
     
     else
     {
